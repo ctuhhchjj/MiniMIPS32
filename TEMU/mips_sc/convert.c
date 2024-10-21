@@ -8,7 +8,7 @@ int main(int argc, char* argv[])
 	FILE *in;
 	FILE *out;
 
-	uint8_t *file_bin_name = malloc(80);
+	uint8_t *file_bin_name = malloc(80); //
 	uint8_t *file_data_name = malloc(80);
 
 	int i,j,k,n;
