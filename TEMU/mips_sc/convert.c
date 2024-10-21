@@ -45,7 +45,7 @@ int main(int argc, char* argv[])
 	    fprintf(out, "%02x%02x%02x%02x\n", mem[0], mem[1], mem[2],mem[3]);
         }
 	fclose(in);
-	fclose(out);  // gallon
+	fclose(out);  
 
     return 0;
 }
